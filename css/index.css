@@ -11,6 +11,11 @@ hr{
     width: 15%;
 }
 img{
-    height: 260px;
+    height: 290px;
     width: 250px;
+}
+h1,
+h2,
+h3{
+    color: #56776c;
 }
