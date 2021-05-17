@@ -1,21 +1,24 @@
 body{
     margin: 0;
     text-align: center;
+    background-color:#a6d6d6;
 }
-h1,h2,h3{
+h1{
     color: #440a67;
     font-family: 'Dancing Script', cursive;
+    font-size: 300%;
+
+}
+h2,h3{
+    color: #440a67;
+    font-family: 'Dancing Script', cursive;
+    font-size: 200%;
     
 }
 .top-container{
    background-color:#a6d6d6;
    position: relative;
    padding-top: 100px;
-}
-.bottom-container{
-    background-color: coral;
-    width: 200px;
-    height: 200px
 }
 .bottom-cloud{
     position: absolute;
@@ -29,8 +32,17 @@ h1,h2,h3{
 }
 p{
     font-family: 'Pangolin', cursive;
+    font-size: 1.5rem;
 }
-profile_img{
-    width: 100px;
-    height: 100px;
+.profile-img{
+    width: 200px;
+    height: 200px;
+}
+.skills-img{
+    width: 200px;
+    height: 200px;
+}
+.contact-img{
+    width: 180px;
+    height: 200px;
 }
