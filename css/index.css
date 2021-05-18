@@ -1,7 +1,7 @@
 body{
     margin: 0;
     text-align: center;
-    background-color:#a6d6d6;
+    background-color:#ededd0;
 }
 h1{
     color: #440a67;
@@ -9,40 +9,91 @@ h1{
     font-size: 300%;
 
 }
-h2,h3{
+h2{
     color: #440a67;
     font-family: 'Dancing Script', cursive;
     font-size: 200%;
+    padding: 20px;
+    font-family: 'Mali', cursive;
+    margin: 0 auto;
+}
+h3{
+    color: #440a67;
+    font-family: 'Dancing Script', cursive;
+    font-size: 120%;
+    padding-bottom: 10px;
+    font-family: 'Mali', cursive;
+    margin-bottom: 0;
+    text-align: initial;
+
     
 }
+hr{
+    width: 100px;
+    border-top: 10px dotted #440a67;
+    margin: 0 auto;
+}
 .top-container{
-   background-color:#a6d6d6;
+   background-color:#ededd0;
    position: relative;
-   padding-top: 100px;
+}
+
+.bottom-container{
+    font-size: 70%;
+    padding-top: 10% ;
 }
 .bottom-cloud{
-    position: absolute;
-    left: 30%;
-    top: 150px;
+    position: relative;
+    right: 20%;
+    top:0%;
+    bottom: 10%;
+    width: 300px;
 }
 .top-cloud{
-    position: absolute;
-    right: 30%;
-    top: 70px;
+    position: relative;
+    left: 20%;
+    bottom: 20%;
+    width: 300px;
 }
 p{
-    font-family: 'Pangolin', cursive;
-    font-size: 1.5rem;
+    font-family: 'Mali', cursive;
+    font-size: 1.2rem;
+    width: 100%;
+    padding-top: 10px;
+    margin-top: 0px;
+    line-height: 1.5;
+    text-align: justify;
 }
 .profile-img{
     width: 200px;
     height: 200px;
+    
+}
+.profile{
+    width: 50%;
+    margin: auto;
+}
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;   
+   
 }
 .skills-img{
-    width: 200px;
+    width: 180px;
     height: 200px;
+    float:  right;
+    
+}
+.skills{
+
 }
 .contact-img{
     width: 180px;
     height: 200px;
+    float: left;
+ 
+}
+.contact-me{
+    width: 50%;
+    margin: auto;
 }
