@@ -1,7 +1,7 @@
 body{
     margin: 0;
     text-align: center;
-    background-color:#faf3f3;
+    background-color: #da7f8f;
 }
 h1{
     color: #440a67;
@@ -25,6 +25,11 @@ h3{
     font-family: 'Mali', cursive;
     margin-bottom: 0;
     text-align: initial;
+}
+h4{
+    font-size: 90%;
+    color:#faf3f3;
+    padding-top: 2%;
 }
 hr{
     width: 100px;
@@ -101,6 +106,7 @@ p{
     margin: auto;
     padding-bottom: 50px;
 }
-button{
-    background-color:#da7f8f ;
+.footer-link{
+    color:#faf3f3 ;
+    margin: 10px;
 }
