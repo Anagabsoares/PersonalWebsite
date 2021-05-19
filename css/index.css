@@ -77,7 +77,8 @@ p{
 }
 .profile-img{
     width: 200px;
-    height: 200px;
+    height: 205px;
+    padding-top: 30px;
     
 }
 .profile{
@@ -109,4 +110,8 @@ p{
 .footer-link{
     color:#faf3f3 ;
     margin: 10px;
+}
+
+a:hover{
+
 }
